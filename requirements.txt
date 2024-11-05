@@ -1,5 +1,4 @@
 aiortc==1.0.0
-distutils
 setuptools
 cmake==3.21.1
 opencv-python
