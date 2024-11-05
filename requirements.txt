@@ -1,9 +1,8 @@
 cmake
-opencv-python-headless
+opencv-contrib-python
 streamlit-webrtc
 tensorflow
 imutils
 pickle-mixin
 scikit-learn
 av
-opencv-contrib-python==4.5.3.56
