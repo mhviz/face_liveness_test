@@ -1,5 +1,5 @@
-from streamlit_webrtc import webrtc_streamer
 import av
+from streamlit_webrtc import webrtc_streamer
 import cv2
 import tensorflow as tf
 import numpy as np
