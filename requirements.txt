@@ -3,7 +3,7 @@ cmake==3.21.1
 opencv-contrib-python-headless==4.5.3.56
 aiortc==1.0.0
 streamlit-webrtc
-imutils==0.5.4
+imutils
 dlib==19.22
 tensorflow==2.5.0
 scikit-learn==0.24.2
