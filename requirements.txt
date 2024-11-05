@@ -5,4 +5,4 @@ streamlit-webrtc
 scikit-learn
 pickle-mixin
 av
-keras==2.5
+tensorflow==2.9
