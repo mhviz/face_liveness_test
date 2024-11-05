@@ -1,5 +1,5 @@
 aiortc==1.0.0
-setuptools
+python3.9-distutils
 cmake==3.21.1
 opencv-python
 streamlit-webrtc
