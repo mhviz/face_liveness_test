@@ -1,8 +1,7 @@
 import av
 from streamlit_webrtc import webrtc_streamer
 import cv2
-# import tensorflow as tf
-import keras
+import tensorflow as tf
 import numpy as np
 import imutils
 import pickle
@@ -28,8 +27,7 @@ model_path = os.path.sep.join([args['detector'], 'res10_300x300_ssd_iter_140000.
 detector_net = cv2.dnn.readNetFromCaffe(proto_path, model_path)
 	
 # load the liveness detector model and label encoder from disk
-#liveness_model = tf.keras.models.load_model(args['model'])
-liveness_model = keras.models.load_model(args['model'])
+liveness_model = tf.keras.models.load_model(args['model'])
 le = pickle.loads(open(args['le'], 'rb').read())
 
 
@@ -90,9 +88,8 @@ class VideoProcessor:
 				# initialize the default name if it doesn't found a face for detected faces
 				name = 'Unknown'
 				face = face.astype('float') / 255.0 
-				#face = tf.keras.preprocessing.image.img_to_array(face)
-				face = keras.preprocessing.image.img_to_array(face)
-
+				face = tf.keras.preprocessing.image.img_to_array(face)
+				
 				# tf model require batch of data to feed in
 				# so if we need only one image at a time, we have to add one more dimension
 				# in this case it's the same with [face]
