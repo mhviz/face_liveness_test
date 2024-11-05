@@ -1,9 +1,8 @@
-streamlit
-cmake
-opencv-contrib-python-headless
+cmake==3.21.1
+opencv-contrib-python-headless==4.5.3.56
 streamlit-webrtc
-tensorflow
-imutils
+tensorflow==2.5.0
+scikit-learn==0.24.2
 pickle-mixin
 scikit-learn
 av
