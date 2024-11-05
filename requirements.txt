@@ -1,10 +1,8 @@
-cmake==3.21.1
-numpy==1.19.2
-imutils==0.5.3
-opencv-contrib-python==4.4
-scipy==1.5.3
-tensorflow
-scikit-learn==0.24.2
+cmake
+opencv-contrib-python
 streamlit-webrtc
+tensorflow
+imutils
 pickle-mixin
+scikit-learn
 av
