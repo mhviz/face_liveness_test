@@ -1,5 +1,5 @@
 cmake
-opencv-contrib-python
+opencv-contrib-python-headless
 streamlit-webrtc
 tensorflow
 imutils
