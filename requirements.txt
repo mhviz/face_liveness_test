@@ -1,6 +1,6 @@
 cmake==3.21.1
 numpy==1.21.4
-dlib==19.22.99
+dlib==19.22.1
 imutils==0.5.4
 opencv-contrib-python==4.5.3.56
 tensorflow==2.5.0
