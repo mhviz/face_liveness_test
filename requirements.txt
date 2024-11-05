@@ -6,3 +6,4 @@ imutils
 pickle-mixin
 scikit-learn
 av
+scipy
